@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ - 湘南YVC</title>
+    <meta name="description" content="湘南YVCによく寄せられる質問と回答をまとめました。">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'M PLUS Rounded 1c', sans-serif;
+        }
+
+        .faq-item {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 10px;
+            margin-bottom: 1rem;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+        }
+
+        .faq-question {
+            font-weight: bold;
+            color: var(--primary-color);
+            margin-bottom: 0.5rem;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .faq-question::after {
+            content: '+';
+            font-size: 1.5rem;
+        }
+
+        .faq-answer {
+            display: none;
+            margin-top: 1rem;
+            padding-top: 1rem;
+            border-top: 1px solid #eee;
+        }
+
+        .faq-item.active .faq-answer {
+            display: block;
+        }
+
+        .faq-item.active .faq-question::after {
+            content: '-';
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="header-container">
+            <a href="index.html" class="logo">湘南YVC</a>
+            <nav>
+                <ul class="nav-menu">
+                    <li class="nav-item"><a href="index.html" class="nav-link">ホーム</a></li>
+                    <li class="nav-item"><a href="transition.html" class="nav-link">部活動地域移行について</a></li>
+                    <li class="nav-item"><a href="recruit-member.html" class="nav-link">メンバー募集</a></li>
+                    <li class="nav-item"><a href="recruit-coach.html" class="nav-link">指導者募集</a></li>
+                    <li class="nav-item"><a href="coaches.html" class="nav-link">指導者紹介</a></li>
+                    <li class="nav-item"><a href="access.html" class="nav-link">アクセス</a></li>
+                    <li class="nav-item"><a href="faq.html" class="nav-link">FAQ</a></li>
+                    <li class="nav-item"><a href="blog.html" class="nav-link">ブログ</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero" style="height: 40vh;">
+            <div class="hero-content">
+                <h1>FAQ</h1>
+                <p>よくある質問</p>
+            </div>
+        </section>
+
+        <section style="max-width: 900px; margin: 0 auto; padding: 2rem;">
+            <p style="text-align: center; margin-bottom: 2rem;">皆様からよくいただくご質問をまとめました。</p>
+
+            <h3
+                style="color: var(--secondary-color); border-bottom: 2px solid var(--primary-color); padding-bottom: 0.5rem; margin-top: 2rem;">
+                【活動について】</h3>
+            <div class="faq-item">
+                <div class="faq-question">Q. バレーボール未経験でも大丈夫ですか？</div>
+                <div class="faq-answer">A. はい、大歓迎です！基礎から丁寧に指導しますので、安心してご参加ください。現在所属しているメンバーの中にも、中学校から始めた子がたくさんいます。</div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">Q. 練習の見学や体験はできますか？</div>
+                <div class="faq-answer">A. はい、随時受け付けております。LINEからお気軽にお問い合わせください。体験練習は何度でも参加可能です。</div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">Q. 練習は毎回参加しなければなりませんか？</div>
+                <div class="faq-answer">A. 強制ではありません。学校の行事や体調不良、家庭の用事などで休むことは可能です。ただし、チームスポーツですので、無断欠席はしないよう連絡をお願いしています。
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">Q. 他の習い事や塾との両立はできますか？</div>
+                <div class="faq-answer">A. はい、可能です。遅刻や早退も事前に連絡をいただければ認めています。学業との両立を推奨しています。</div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">Q. 身長が低くても活躍できますか？</div>
+                <div class="faq-answer">A. もちろんです。バレーボールにはリベロ（守備専門）やセッターなど、身長に関係なく活躍できるポジションがあります。それぞれの個性を活かした指導を行います。
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">Q. 練習試合や大会への参加はありますか？</div>
+                <div class="faq-answer">A. はい、定期的に練習試合を行っています。また、ヤングクラブバレーボール連盟主催の大会などにも出場予定です。</div>
+            </div>
+
+            <h3
+                style="color: var(--secondary-color); border-bottom: 2px solid var(--primary-color); padding-bottom: 0.5rem; margin-top: 2rem;">
+                【費用について】</h3>
+            <div class="faq-item">
+                <div class="faq-question">Q. 入会金や月会費はいくらですか？</div>
+                <div class="faq-answer">A.
+                    入会金：3,000円、ユニフォーム管理費：5,000円、月会費：3,500円となります。その他、スポーツ保険料などがかかります。営利目的ではないため、活動に必要な実費を基準に設定しています。
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">Q. ユニフォームや練習着の購入は必要ですか？</div>
+                <div class="faq-answer">A. 試合に出場するためにはユニフォームが必要です（貸与または購入）。練習着は動きやすい服装であれば自由ですが、チームTシャツの購入も可能です。</div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">Q. 遠征費はかかりますか？</div>
+                <div class="faq-answer">A. 遠方への遠征や合宿を行う場合は、別途実費（交通費、宿泊費など）をご負担いただく場合があります。事前にご案内し、参加希望者を募ります。</div>
+            </div>
+
+            <h3
+                style="color: var(--secondary-color); border-bottom: 2px solid var(--primary-color); padding-bottom: 0.5rem; margin-top: 2rem;">
+                【保護者の関わりについて】</h3>
+            <div class="faq-item">
+                <div class="faq-question">Q. 保護者の当番はありますか？</div>
+                <div class="faq-answer">A. 基本的に保護者の方の負担になるような「お茶当番」や「鍵当番」などの定期的な当番制は設けておりません。</div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">Q. 練習の送迎は必要ですか？</div>
+                <div class="faq-answer">A.
+                    練習場所への行き帰りは、基本的に各家庭の責任でお願いしています。夜間の練習もありますので、安全のため送迎をお願いする場合もありますが、自転車や公共交通機関で通っている子もいます。</div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">Q. 試合の応援に行ってもいいですか？</div>
+                <div class="faq-answer">A. ぜひ応援に来てください！子供たちの頑張る姿を見ることは、親御さんにとっても楽しみの一つだと思います。強制ではありませんので、ご都合のつく範囲で構いません。
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">Q. 保護者会などはありますか？</div>
+                <div class="faq-answer">A. 年に数回、活動報告や方針説明のために保護者会を開催する予定ですが、頻繁な集まりはありません。連絡事項は主にLINEで行います。</div>
+            </div>
+
+            <h3
+                style="color: var(--secondary-color); border-bottom: 2px solid var(--primary-color); padding-bottom: 0.5rem; margin-top: 2rem;">
+                【その他】</h3>
+            <div class="faq-item">
+                <div class="faq-question">Q. 怪我をした場合の対応は？</div>
+                <div class="faq-answer">A.
+                    入会時にスポーツ安全保険に加入していただきます。万が一、練習中や試合中に怪我をした場合は、保険の範囲内で補償が受けられます。また、トレーナーが応急処置やリハビリの相談にも乗ります。</div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">Q. 学校の部活との掛け持ちはできますか？</div>
+                <div class="faq-answer">A. 基本的には可能ですが、学校の部活の方針や顧問の先生の考え方にもよりますので、事前に学校側にご相談いただくことをお勧めします。</div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">Q. 退会したい場合はどうすればいいですか？</div>
+                <div class="faq-answer">A. 退会希望月の前月までにお申し出ください。無理な引き止めはいたしません。</div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">Q. 友達と一緒に体験に行ってもいいですか？</div>
+                <div class="faq-answer">A. もちろんです！お友達を誘って、ぜひ一緒に遊びに来てください。</div>
+            </div>
+
+            <div style="text-align: center; margin-top: 3rem;">
+                <p style="margin-bottom: 1rem; font-weight: bold;">その他、ご不明な点はLINEでお尋ねください</p>
+                <a href="https://line.me/R/ti/p/@placeholder" class="cta-button" target="_blank">LINEでのお問い合わせはこちら</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Shonan YVC. All Rights Reserved.</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script>
+        document.querySelectorAll('.faq-question').forEach(item => {
+            item.addEventListener('click', () => {
+                item.parentElement.classList.toggle('active');
+            });
+        });
+    </script>
+</body>
+
+</html>
